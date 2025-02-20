@@ -1,0 +1,65 @@
+<Window
+    x:Class="Tort.Views.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:Tort.ViewModels"
+    Title="Tort"
+    Width="650"
+    Height="400"
+    d:DesignHeight="400"
+    d:DesignWidth="650"
+    x:DataType="vm:MainWindowViewModel"
+    Icon="/Assets/avalonia-logo.ico"
+    WindowStartupLocation="CenterOwner"
+    mc:Ignorable="d">
+
+    <Design.DataContext>
+        <!--
+            This only sets the DataContext for the previewer in an IDE,
+            to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs)
+        -->
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+
+        <DataGrid
+            Grid.Row="1"
+            Margin="2,1,2,1"
+            AutoGenerateColumns="False"
+            ColumnWidth="*"
+            IsReadOnly="True"
+            ItemsSource="{Binding Users}"
+            SelectedItem="{Binding SelectUser, Mode=TwoWay}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding User_id}" Header="ID" />
+                <DataGridTextColumn Binding="{Binding User_Name}" Header="Имя" />
+                <DataGridTextColumn Binding="{Binding User_FirstName}" Header="Фамилия" />
+                <DataGridTextColumn Binding="{Binding User_FirstName}" Header="Отчество" />
+                <DataGridTextColumn Binding="{Binding User_FirstName}" Header="Логин" />
+                <DataGridTextColumn Binding="{Binding User_FirstName}" Header="Роле" />
+                <DataGridTextColumn Binding="{Binding User_FirstName}" Header="Почта" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel
+            Grid.Row="2"
+            Background="Gray"
+            Orientation="Horizontal">
+            <Button Content="Добавить " />
+            <Button Content="изменить " />
+            <Button Content="удалить " />
+        </StackPanel>
+    </Grid>
+
+</Window>

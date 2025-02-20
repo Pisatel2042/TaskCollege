@@ -1,0 +1,71 @@
+<Window
+    x:Class="Tort.LoginWindows"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:Tort.ViewModels"
+    Title="Login"
+    Width="600"
+    Height="450"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    x:DataType="vm:LoginViewModel"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel
+            Grid.Row="1"
+            Grid.Column="1"
+            VerticalAlignment="">
+
+            <TextBox
+                x:Name="LoginUserTextBox"
+                Margin="0,0,0,5"
+                Text="{Binding LoginUser}"
+                Watermark="Enter Login" />
+
+            <TextBox
+                x:Name="PasswordUserTextBox"
+                Text="{Binding PasswordUser}"
+                Watermark="Enter password" />
+            <TextBlock
+                Margin="0,2"
+                HorizontalAlignment="Center"
+                FontSize="11"
+                Foreground="Red"
+                Text="{Binding ErrorMessage}" />
+            <TextBlock HorizontalAlignment="Center">
+                <HyperlinkButton FontSize="10" NavigateUri="https://ru.pinterest.com/pin/825706912967602703/">
+                    Can't access your account?
+                </HyperlinkButton>
+            </TextBlock>
+
+        </StackPanel>
+        <StackPanel
+            Grid.Row="2"
+            Grid.Column="1"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Orientation="Horizontal">
+            <Button Command="{Binding LoginCommand}" Content="Enter " />
+            <Button
+                x:Name="CloseButton"
+                Command="{Binding CloseCommand}"
+                Content="Quit" />
+        </StackPanel>
+    </Grid>
+</Window>
