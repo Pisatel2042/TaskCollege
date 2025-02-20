@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F4D4139A-D163-44E1-AD50-70EEE016FDF1}|Tort\\Tort.csproj|c:\\users\\shumeyko\\source\\repos\\tort\\tort\\data\\maindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D4139A-D163-44E1-AD50-70EEE016FDF1}|Tort\\Tort.csproj|solutionrelative:tort\\data\\maindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4D4139A-D163-44E1-AD50-70EEE016FDF1}|Tort\\Tort.csproj|c:\\users\\shumeyko\\source\\repos\\tort\\tort\\views\\loginwindows.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{F4D4139A-D163-44E1-AD50-70EEE016FDF1}|Tort\\Tort.csproj|solutionrelative:tort\\views\\loginwindows.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F4D4139A-D163-44E1-AD50-70EEE016FDF1}|Tort\\Tort.csproj|c:\\users\\shumeyko\\source\\repos\\tort\\tort\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4D4139A-D163-44E1-AD50-70EEE016FDF1}|Tort\\Tort.csproj|solutionrelative:tort\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4D4139A-D163-44E1-AD50-70EEE016FDF1}|Tort\\Tort.csproj|c:\\users\\shumeyko\\source\\repos\\tort\\tort\\data\\maindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4D4139A-D163-44E1-AD50-70EEE016FDF1}|Tort\\Tort.csproj|solutionrelative:tort\\data\\maindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4D4139A-D163-44E1-AD50-70EEE016FDF1}|Tort\\Tort.csproj|c:\\users\\shumeyko\\source\\repos\\tort\\tort\\data\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,13 +74,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\Data\\MainDBContext.cs",
               "RelativeDocumentMoniker": "Tort\\Data\\MainDBContext.cs",
               "ToolTip": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\Data\\MainDBContext.cs",
               "RelativeToolTip": "Tort\\Data\\MainDBContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T08:22:46.85Z",
               "EditorCaption": ""
@@ -95,8 +95,7 @@
               "RelativeToolTip": "Tort\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:56:05.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T06:56:05.918Z"
             },
             {
               "$type": "Document",
@@ -108,8 +107,7 @@
               "RelativeToolTip": "Tort\\ViewLocator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T13:39:57.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T13:39:57.378Z"
             },
             {
               "$type": "Document",
@@ -121,8 +119,7 @@
               "RelativeToolTip": "Tort\\Tort.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-17T12:59:15.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T12:59:15.295Z"
             },
             {
               "$type": "Document",
@@ -134,12 +131,11 @@
               "RelativeToolTip": "Tort\\Data\\LoginDBContext.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAcwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T12:59:27.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T12:59:27.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Tort\\ViewModels\\LoginViewModel.cs",
@@ -147,8 +143,7 @@
               "RelativeToolTip": "Tort\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAxwCEAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T12:32:48.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T12:32:48.081Z"
             },
             {
               "$type": "Document",
@@ -160,12 +155,11 @@
               "RelativeToolTip": "Tort\\App.axaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T12:30:34.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T12:30:34.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginWindows.axaml",
               "DocumentMoniker": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\Views\\LoginWindows.axaml",
               "RelativeDocumentMoniker": "Tort\\Views\\LoginWindows.axaml",
@@ -177,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoginWindows.axaml.cs",
               "DocumentMoniker": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\Views\\LoginWindows.axaml.cs",
               "RelativeDocumentMoniker": "Tort\\Views\\LoginWindows.axaml.cs",
@@ -185,8 +179,7 @@
               "RelativeToolTip": "Tort\\Views\\LoginWindows.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T12:24:30.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T12:24:30.575Z"
             },
             {
               "$type": "Document",
@@ -198,8 +191,7 @@
               "RelativeToolTip": "Tort\\ViewModels\\ViewModelBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T11:59:21.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T11:59:21.587Z"
             },
             {
               "$type": "Document",
@@ -211,8 +203,7 @@
               "RelativeToolTip": "Tort\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T11:54:58.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T11:54:58.216Z"
             },
             {
               "$type": "Document",
@@ -224,24 +215,22 @@
               "RelativeToolTip": "Tort\\Command\\ReplayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T11:53:57.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T11:53:57.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "Tort\\Views\\MainWindow.axaml",
               "ToolTip": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\Views\\MainWindow.axaml",
               "RelativeToolTip": "Tort\\Views\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-17T11:08:49.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T11:08:49.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "Tort\\ViewModels\\MainWindowViewModel.cs",
@@ -249,8 +238,7 @@
               "RelativeToolTip": "Tort\\ViewModels\\MainWindowViewModel.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T11:08:46.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T11:08:46.085Z"
             }
           ]
         }
