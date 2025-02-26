@@ -25,7 +25,7 @@ namespace Tort.Data
             {
                 connection.Open();
 
-                using(NpgsqlCommand command = new NpgsqlCommand("",connection))
+                using(NpgsqlCommand command = new NpgsqlCommand("select * from \"user\"", connection))
                 {
 
                     using(NpgsqlDataReader reader = command.ExecuteReader()) 

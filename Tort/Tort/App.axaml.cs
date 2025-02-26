@@ -5,7 +5,11 @@ using Avalonia.Data.Core;
 using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
 using Tort.ViewModels;
+using Avalonia.Styling;
 using Tort.Views;
+using Avalonia.Themes.Fluent;
+using System;
+using Avalonia.Themes.Simple;
 
 namespace Tort
 {
@@ -20,6 +24,11 @@ namespace Tort
         {
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
+                var fluentTheme = new FluentTheme();
+
+              
+                Application.Current.Styles.Add(fluentTheme);
+                Application.Current.Resources["ThemeVariant"] = ThemeVariant.Light;
                 desktop.MainWindow = new LoginWindows();
 
             }

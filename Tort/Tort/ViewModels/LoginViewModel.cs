@@ -12,6 +12,7 @@ using Tort.Command;
 using Tort.Views;
 using Tort.Data;
 using Avalonia.Controls;
+using Avalonia;
 
 namespace Tort.ViewModels
 {
@@ -27,15 +28,18 @@ namespace Tort.ViewModels
         private string _errorMessage;
         public string ErrorMessage { get { return _errorMessage; } set { _errorMessage = value; OnPropertyChanged(); } }
 
+        private Window _loginWindow;
+
         LoginDBContext dbContext { get; set; }
 
-        public LoginViewModel()
+        public LoginViewModel(Window loginWindow)
         {
             string connectionString = "Host= localhost;Port=5432;Database=postgres;Username=postgres;Password=1111;";
 
             LoginCommand = new ReplayCommand(Login, CanLogin);
             CloseCommand = new ReplayCommand(Close, CanClose);
 
+            _loginWindow = loginWindow;
 
             dbContext = new LoginDBContext(connectionString);
 
@@ -56,8 +60,11 @@ namespace Tort.ViewModels
                 bool s = dbContext.Login(LoginUser, PasswordUser);
                 if (s)
                 {
+                    MainWindowViewModel  mainWindowViewModel = new MainWindowViewModel();
                     MainWindow main = new MainWindow();
+                    MainWindow mainWindow = new MainWindow { DataContext = mainWindowViewModel };
                     main.Show();
+                    _loginWindow.Close();
                 }
                 else
                 {
@@ -66,10 +73,9 @@ namespace Tort.ViewModels
             }
             catch (Exception ex)
             {
-                // Логируем ошибку
+                
                 Console.Error.WriteLine($"Ошибка при вызове Login: {ex}");
-                // Обрабатываем ошибку (например, показываем сообщение пользователю)
-                // MessageBox.Show($"Ошибка при входе: {ex.Message}");
+              
             }
 
 

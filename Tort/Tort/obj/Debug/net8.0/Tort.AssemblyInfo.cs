@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tort")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e100dac2c1b6afe30921e51298d5989f986f8560")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tort")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tort")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

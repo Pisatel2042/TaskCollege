@@ -6,7 +6,7 @@ using Tort.Models;
 
 namespace Tort.ViewModels
 {
-    public partial class MainWindowViewModel : ViewModelBase
+    public  class MainWindowViewModel : ViewModelBase
     {
         #region DataMeneger
         private int _id { get; set; }
@@ -39,7 +39,7 @@ namespace Tort.ViewModels
             get { return _selectUser; }
             set
             {
-                _selectUser = value; OnPropertyChanged();
+                _selectUser = value; OnPropertyChanged(); 
                 if (_selectUser != null)
                 {
                     Id = _selectUser.User_id;
@@ -61,6 +61,9 @@ namespace Tort.ViewModels
         {
             string connectionstring = "Host= localhost;Port=5432;Database=postgres;Username=postgres;Password=1111;";
             Users = new ObservableCollection<User>();
+
+
+           
             dBContext = new MainDBContext(connectionstring);
             LoadUser();
         }
@@ -73,5 +76,8 @@ namespace Tort.ViewModels
             foreach (var _task in task)
                 Users.Add(_task);
         }
+
+
+
     }
 }

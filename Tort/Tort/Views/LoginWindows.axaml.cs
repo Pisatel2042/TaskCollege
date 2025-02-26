@@ -11,6 +11,7 @@ public partial class LoginWindows : Window
     public LoginWindows()
     {
         InitializeComponent();
+        DataContext = new LoginViewModel(this);
         Button closeButton = this.FindControl<Button>("CloseButton");
 
         if (closeButton != null)
@@ -19,7 +20,7 @@ public partial class LoginWindows : Window
         }
 
 
-        DataContext = new LoginViewModel();
+      
     }
      private void CloseButton_Click(object sender, Avalonia.Interactivity.RoutedEventArgs e)
         {

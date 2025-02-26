@@ -511,6 +511,18 @@
           }
         }
       },
+      "Romzetron.Avalonia/11.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.2.1"
+        },
+        "compile": {
+          "lib/net8.0/Romzetron.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Romzetron.Avalonia.dll": {}
+        }
+      },
       "SkiaSharp/2.88.8": {
         "type": "package",
         "dependencies": {
@@ -1417,6 +1429,21 @@
         "postgresql.png"
       ]
     },
+    "Romzetron.Avalonia/11.2.1": {
+      "sha512": "CARtlYeQGagtGnVVDGOGJDfdDLaaBIrB3STc+xntcewQBRncbxVCLGzO4wXMt2ILJCXtetULo2nG++kY1C7GuQ==",
+      "type": "package",
+      "path": "romzetron.avalonia/11.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "RomzetronLogo.png",
+        "lib/net8.0/Romzetron.Avalonia.dll",
+        "romzetron.avalonia.11.2.1.nupkg.sha512",
+        "romzetron.avalonia.nuspec"
+      ]
+    },
     "SkiaSharp/2.88.8": {
       "sha512": "bRkp3uKp5ZI8gXYQT57uKwil1uobb2p8c69n7v5evlB/2JNcMAXVcw9DZAP5Ig3WSvgzGm2YSn27UVeOi05NlA==",
       "type": "package",
@@ -1639,32 +1666,34 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Avalonia >= 11.2.1",
+      "Avalonia.Controls.DataGrid >= 11.2.1",
       "Avalonia.Desktop >= 11.2.1",
       "Avalonia.Diagnostics >= 11.2.1",
       "Avalonia.Fonts.Inter >= 11.2.1",
       "Avalonia.Themes.Fluent >= 11.2.1",
       "CommunityToolkit.Mvvm >= 8.2.1",
-      "Npgsql >= 9.0.2"
+      "Npgsql >= 9.0.2",
+      "Romzetron.Avalonia >= 11.2.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shumeyko\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\shume\\.nuget\\packages\\": {},
+    "D:\\Program_File\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\Tort.csproj",
+      "projectUniqueName": "D:\\Project_Programming\\Xrushenko\\College\\TaskCollege\\Tort\\Tort\\Tort.csproj",
       "projectName": "Tort",
-      "projectPath": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\Tort.csproj",
-      "packagesPath": "C:\\Users\\Shumeyko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shumeyko\\source\\repos\\Tort\\Tort\\obj\\",
+      "projectPath": "D:\\Project_Programming\\Xrushenko\\College\\TaskCollege\\Tort\\Tort\\Tort.csproj",
+      "packagesPath": "C:\\Users\\shume\\.nuget\\packages\\",
+      "outputPath": "D:\\Project_Programming\\Xrushenko\\College\\TaskCollege\\Tort\\Tort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Program_File\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Shumeyko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shume\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1673,6 +1702,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1701,6 +1731,10 @@
             "target": "Package",
             "version": "[11.2.1, )"
           },
+          "Avalonia.Controls.DataGrid": {
+            "target": "Package",
+            "version": "[11.2.1, )"
+          },
           "Avalonia.Desktop": {
             "target": "Package",
             "version": "[11.2.1, )"
@@ -1724,6 +1758,10 @@
           "Npgsql": {
             "target": "Package",
             "version": "[9.0.2, )"
+          },
+          "Romzetron.Avalonia": {
+            "target": "Package",
+            "version": "[11.2.1, )"
           }
         },
         "imports": [
@@ -1742,7 +1780,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

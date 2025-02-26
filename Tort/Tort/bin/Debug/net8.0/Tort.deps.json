@@ -9,12 +9,14 @@
       "Tort/1.0.0": {
         "dependencies": {
           "Avalonia": "11.2.1",
+          "Avalonia.Controls.DataGrid": "11.2.1",
           "Avalonia.Desktop": "11.2.1",
           "Avalonia.Diagnostics": "11.2.1",
           "Avalonia.Fonts.Inter": "11.2.1",
           "Avalonia.Themes.Fluent": "11.2.1",
           "CommunityToolkit.Mvvm": "8.2.1",
-          "Npgsql": "9.0.2"
+          "Npgsql": "9.0.2",
+          "Romzetron.Avalonia": "11.2.1"
         },
         "runtime": {
           "Tort.dll": {}
@@ -373,6 +375,17 @@
           }
         }
       },
+      "Romzetron.Avalonia/11.2.1": {
+        "dependencies": {
+          "Avalonia": "11.2.1"
+        },
+        "runtime": {
+          "lib/net8.0/Romzetron.Avalonia.dll": {
+            "assemblyVersion": "11.2.1.0",
+            "fileVersion": "11.2.1.0"
+          }
+        }
+      },
       "SkiaSharp/2.88.8": {
         "dependencies": {
           "SkiaSharp.NativeAssets.Win32": "2.88.8",
@@ -649,6 +662,13 @@
       "sha512": "sha512-hCbO8box7i/XXiTFqCJ3GoowyLqx3JXxyrbOJ6om7dr+eAknvBNhhUHeJVGAQo44sySZTfdVffp4BrtPeLZOAA==",
       "path": "npgsql/9.0.2",
       "hashPath": "npgsql.9.0.2.nupkg.sha512"
+    },
+    "Romzetron.Avalonia/11.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CARtlYeQGagtGnVVDGOGJDfdDLaaBIrB3STc+xntcewQBRncbxVCLGzO4wXMt2ILJCXtetULo2nG++kY1C7GuQ==",
+      "path": "romzetron.avalonia/11.2.1",
+      "hashPath": "romzetron.avalonia.11.2.1.nupkg.sha512"
     },
     "SkiaSharp/2.88.8": {
       "type": "package",
